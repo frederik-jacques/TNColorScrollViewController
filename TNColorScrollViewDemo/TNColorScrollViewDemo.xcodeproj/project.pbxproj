@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		863A375219B077A000D2D2C6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 863A375119B077A000D2D2C6 /* Foundation.framework */; };
+		863A375419B077A000D2D2C6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 863A375319B077A000D2D2C6 /* CoreGraphics.framework */; };
+		863A375619B077A000D2D2C6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 863A375519B077A000D2D2C6 /* UIKit.framework */; };
+		863A375C19B077A000D2D2C6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 863A375A19B077A000D2D2C6 /* InfoPlist.strings */; };
+		863A375E19B077A000D2D2C6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 863A375D19B077A000D2D2C6 /* main.m */; };
+		863A376219B077A000D2D2C6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 863A376119B077A000D2D2C6 /* AppDelegate.m */; };
+		863A376419B077A000D2D2C6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 863A376319B077A000D2D2C6 /* Images.xcassets */; };
+		863A376B19B077A000D2D2C6 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 863A376A19B077A000D2D2C6 /* XCTest.framework */; };
+		863A376C19B077A000D2D2C6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 863A375119B077A000D2D2C6 /* Foundation.framework */; };
+		863A376D19B077A000D2D2C6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 863A375519B077A000D2D2C6 /* UIKit.framework */; };
+		863A377519B077A000D2D2C6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 863A377319B077A000D2D2C6 /* InfoPlist.strings */; };
+		863A377719B077A000D2D2C6 /* TNColorScrollViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 863A377619B077A000D2D2C6 /* TNColorScrollViewDemoTests.m */; };
+		863A378A19B077BC00D2D2C6 /* TNColorScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 863A378219B077BC00D2D2C6 /* TNColorScrollView.m */; };
+		863A378B19B077BC00D2D2C6 /* TNColorScrollViewConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 863A378419B077BC00D2D2C6 /* TNColorScrollViewConfig.m */; };
+		863A378C19B077BC00D2D2C6 /* TNColorScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 863A378619B077BC00D2D2C6 /* TNColorScrollViewController.m */; };
+		863A378D19B077BC00D2D2C6 /* TNColorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 863A378819B077BC00D2D2C6 /* TNColorView.m */; };
+		863A379319B0780500D2D2C6 /* TNColorViewData.m in Sources */ = {isa = PBXBuildFile; fileRef = 863A379219B0780500D2D2C6 /* TNColorViewData.m */; };
+		863A379619B0787D00D2D2C6 /* MyCustomViewClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 863A379519B0787D00D2D2C6 /* MyCustomViewClass.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		863A376E19B077A000D2D2C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 863A374619B077A000D2D2C6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 863A374D19B077A000D2D2C6;
+			remoteInfo = TNColorScrollViewDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		863A374E19B077A000D2D2C6 /* TNColorScrollViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TNColorScrollViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		863A375119B077A000D2D2C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		863A375319B077A000D2D2C6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		863A375519B077A000D2D2C6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		863A375919B077A000D2D2C6 /* TNColorScrollViewDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TNColorScrollViewDemo-Info.plist"; sourceTree = "<group>"; };
+		863A375B19B077A000D2D2C6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		863A375D19B077A000D2D2C6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		863A375F19B077A000D2D2C6 /* TNColorScrollViewDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TNColorScrollViewDemo-Prefix.pch"; sourceTree = "<group>"; };
+		863A376019B077A000D2D2C6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		863A376119B077A000D2D2C6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		863A376319B077A000D2D2C6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		863A376919B077A000D2D2C6 /* TNColorScrollViewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TNColorScrollViewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		863A376A19B077A000D2D2C6 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		863A377219B077A000D2D2C6 /* TNColorScrollViewDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TNColorScrollViewDemoTests-Info.plist"; sourceTree = "<group>"; };
+		863A377419B077A000D2D2C6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		863A377619B077A000D2D2C6 /* TNColorScrollViewDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TNColorScrollViewDemoTests.m; sourceTree = "<group>"; };
+		863A378119B077BC00D2D2C6 /* TNColorScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TNColorScrollView.h; path = ../../src/TNColorScrollView.h; sourceTree = "<group>"; };
+		863A378219B077BC00D2D2C6 /* TNColorScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TNColorScrollView.m; path = ../../src/TNColorScrollView.m; sourceTree = "<group>"; };
+		863A378319B077BC00D2D2C6 /* TNColorScrollViewConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TNColorScrollViewConfig.h; path = ../../src/TNColorScrollViewConfig.h; sourceTree = "<group>"; };
+		863A378419B077BC00D2D2C6 /* TNColorScrollViewConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TNColorScrollViewConfig.m; path = ../../src/TNColorScrollViewConfig.m; sourceTree = "<group>"; };
+		863A378519B077BC00D2D2C6 /* TNColorScrollViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TNColorScrollViewController.h; path = ../../src/TNColorScrollViewController.h; sourceTree = "<group>"; };
+		863A378619B077BC00D2D2C6 /* TNColorScrollViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TNColorScrollViewController.m; path = ../../src/TNColorScrollViewController.m; sourceTree = "<group>"; };
+		863A378719B077BC00D2D2C6 /* TNColorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TNColorView.h; path = ../../src/TNColorView.h; sourceTree = "<group>"; };
+		863A378819B077BC00D2D2C6 /* TNColorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TNColorView.m; path = ../../src/TNColorView.m; sourceTree = "<group>"; };
+		863A378919B077BC00D2D2C6 /* TNColorViewData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TNColorViewData.h; path = ../../src/TNColorViewData.h; sourceTree = "<group>"; };
+		863A379219B0780500D2D2C6 /* TNColorViewData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TNColorViewData.m; path = ../../src/TNColorViewData.m; sourceTree = "<group>"; };
+		863A379419B0787D00D2D2C6 /* MyCustomViewClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCustomViewClass.h; sourceTree = "<group>"; };
+		863A379519B0787D00D2D2C6 /* MyCustomViewClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCustomViewClass.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		863A374B19B077A000D2D2C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				863A375419B077A000D2D2C6 /* CoreGraphics.framework in Frameworks */,
+				863A375619B077A000D2D2C6 /* UIKit.framework in Frameworks */,
+				863A375219B077A000D2D2C6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		863A376619B077A000D2D2C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				863A376B19B077A000D2D2C6 /* XCTest.framework in Frameworks */,
+				863A376D19B077A000D2D2C6 /* UIKit.framework in Frameworks */,
+				863A376C19B077A000D2D2C6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		863A374519B077A000D2D2C6 = {
+			isa = PBXGroup;
+			children = (
+				863A375719B077A000D2D2C6 /* TNColorScrollViewDemo */,
+				863A377019B077A000D2D2C6 /* TNColorScrollViewDemoTests */,
+				863A375019B077A000D2D2C6 /* Frameworks */,
+				863A374F19B077A000D2D2C6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		863A374F19B077A000D2D2C6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				863A374E19B077A000D2D2C6 /* TNColorScrollViewDemo.app */,
+				863A376919B077A000D2D2C6 /* TNColorScrollViewDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		863A375019B077A000D2D2C6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				863A375119B077A000D2D2C6 /* Foundation.framework */,
+				863A375319B077A000D2D2C6 /* CoreGraphics.framework */,
+				863A375519B077A000D2D2C6 /* UIKit.framework */,
+				863A376A19B077A000D2D2C6 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		863A375719B077A000D2D2C6 /* TNColorScrollViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				863A376019B077A000D2D2C6 /* AppDelegate.h */,
+				863A376119B077A000D2D2C6 /* AppDelegate.m */,
+				863A379419B0787D00D2D2C6 /* MyCustomViewClass.h */,
+				863A379519B0787D00D2D2C6 /* MyCustomViewClass.m */,
+				863A378019B077AE00D2D2C6 /* TNColorScrollView */,
+				863A376319B077A000D2D2C6 /* Images.xcassets */,
+				863A375819B077A000D2D2C6 /* Supporting Files */,
+			);
+			path = TNColorScrollViewDemo;
+			sourceTree = "<group>";
+		};
+		863A375819B077A000D2D2C6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				863A375919B077A000D2D2C6 /* TNColorScrollViewDemo-Info.plist */,
+				863A375A19B077A000D2D2C6 /* InfoPlist.strings */,
+				863A375D19B077A000D2D2C6 /* main.m */,
+				863A375F19B077A000D2D2C6 /* TNColorScrollViewDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		863A377019B077A000D2D2C6 /* TNColorScrollViewDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				863A377619B077A000D2D2C6 /* TNColorScrollViewDemoTests.m */,
+				863A377119B077A000D2D2C6 /* Supporting Files */,
+			);
+			path = TNColorScrollViewDemoTests;
+			sourceTree = "<group>";
+		};
+		863A377119B077A000D2D2C6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				863A377219B077A000D2D2C6 /* TNColorScrollViewDemoTests-Info.plist */,
+				863A377319B077A000D2D2C6 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		863A378019B077AE00D2D2C6 /* TNColorScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				863A379119B077CD00D2D2C6 /* Config */,
+				863A379019B077C900D2D2C6 /* Model */,
+				863A378F19B077C500D2D2C6 /* View */,
+				863A378E19B077BF00D2D2C6 /* Controller */,
+			);
+			name = TNColorScrollView;
+			sourceTree = "<group>";
+		};
+		863A378E19B077BF00D2D2C6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				863A378519B077BC00D2D2C6 /* TNColorScrollViewController.h */,
+				863A378619B077BC00D2D2C6 /* TNColorScrollViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		863A378F19B077C500D2D2C6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				863A378119B077BC00D2D2C6 /* TNColorScrollView.h */,
+				863A378219B077BC00D2D2C6 /* TNColorScrollView.m */,
+				863A378719B077BC00D2D2C6 /* TNColorView.h */,
+				863A378819B077BC00D2D2C6 /* TNColorView.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		863A379019B077C900D2D2C6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				863A378919B077BC00D2D2C6 /* TNColorViewData.h */,
+				863A379219B0780500D2D2C6 /* TNColorViewData.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		863A379119B077CD00D2D2C6 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				863A378319B077BC00D2D2C6 /* TNColorScrollViewConfig.h */,
+				863A378419B077BC00D2D2C6 /* TNColorScrollViewConfig.m */,
+			);
+			name = Config;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		863A374D19B077A000D2D2C6 /* TNColorScrollViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 863A377A19B077A000D2D2C6 /* Build configuration list for PBXNativeTarget "TNColorScrollViewDemo" */;
+			buildPhases = (
+				863A374A19B077A000D2D2C6 /* Sources */,
+				863A374B19B077A000D2D2C6 /* Frameworks */,
+				863A374C19B077A000D2D2C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TNColorScrollViewDemo;
+			productName = TNColorScrollViewDemo;
+			productReference = 863A374E19B077A000D2D2C6 /* TNColorScrollViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		863A376819B077A000D2D2C6 /* TNColorScrollViewDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 863A377D19B077A000D2D2C6 /* Build configuration list for PBXNativeTarget "TNColorScrollViewDemoTests" */;
+			buildPhases = (
+				863A376519B077A000D2D2C6 /* Sources */,
+				863A376619B077A000D2D2C6 /* Frameworks */,
+				863A376719B077A000D2D2C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				863A376F19B077A000D2D2C6 /* PBXTargetDependency */,
+			);
+			name = TNColorScrollViewDemoTests;
+			productName = TNColorScrollViewDemoTests;
+			productReference = 863A376919B077A000D2D2C6 /* TNColorScrollViewDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		863A374619B077A000D2D2C6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Frederik Jacques";
+				TargetAttributes = {
+					863A376819B077A000D2D2C6 = {
+						TestTargetID = 863A374D19B077A000D2D2C6;
+					};
+				};
+			};
+			buildConfigurationList = 863A374919B077A000D2D2C6 /* Build configuration list for PBXProject "TNColorScrollViewDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 863A374519B077A000D2D2C6;
+			productRefGroup = 863A374F19B077A000D2D2C6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				863A374D19B077A000D2D2C6 /* TNColorScrollViewDemo */,
+				863A376819B077A000D2D2C6 /* TNColorScrollViewDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		863A374C19B077A000D2D2C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				863A375C19B077A000D2D2C6 /* InfoPlist.strings in Resources */,
+				863A376419B077A000D2D2C6 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		863A376719B077A000D2D2C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				863A377519B077A000D2D2C6 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		863A374A19B077A000D2D2C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				863A379619B0787D00D2D2C6 /* MyCustomViewClass.m in Sources */,
+				863A378A19B077BC00D2D2C6 /* TNColorScrollView.m in Sources */,
+				863A379319B0780500D2D2C6 /* TNColorViewData.m in Sources */,
+				863A378B19B077BC00D2D2C6 /* TNColorScrollViewConfig.m in Sources */,
+				863A378D19B077BC00D2D2C6 /* TNColorView.m in Sources */,
+				863A376219B077A000D2D2C6 /* AppDelegate.m in Sources */,
+				863A375E19B077A000D2D2C6 /* main.m in Sources */,
+				863A378C19B077BC00D2D2C6 /* TNColorScrollViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		863A376519B077A000D2D2C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				863A377719B077A000D2D2C6 /* TNColorScrollViewDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		863A376F19B077A000D2D2C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 863A374D19B077A000D2D2C6 /* TNColorScrollViewDemo */;
+			targetProxy = 863A376E19B077A000D2D2C6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		863A375A19B077A000D2D2C6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				863A375B19B077A000D2D2C6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		863A377319B077A000D2D2C6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				863A377419B077A000D2D2C6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		863A377819B077A000D2D2C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		863A377919B077A000D2D2C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		863A377B19B077A000D2D2C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TNColorScrollViewDemo/TNColorScrollViewDemo-Prefix.pch";
+				INFOPLIST_FILE = "TNColorScrollViewDemo/TNColorScrollViewDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		863A377C19B077A000D2D2C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TNColorScrollViewDemo/TNColorScrollViewDemo-Prefix.pch";
+				INFOPLIST_FILE = "TNColorScrollViewDemo/TNColorScrollViewDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		863A377E19B077A000D2D2C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TNColorScrollViewDemo.app/TNColorScrollViewDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TNColorScrollViewDemo/TNColorScrollViewDemo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "TNColorScrollViewDemoTests/TNColorScrollViewDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		863A377F19B077A000D2D2C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TNColorScrollViewDemo.app/TNColorScrollViewDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TNColorScrollViewDemo/TNColorScrollViewDemo-Prefix.pch";
+				INFOPLIST_FILE = "TNColorScrollViewDemoTests/TNColorScrollViewDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		863A374919B077A000D2D2C6 /* Build configuration list for PBXProject "TNColorScrollViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				863A377819B077A000D2D2C6 /* Debug */,
+				863A377919B077A000D2D2C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		863A377A19B077A000D2D2C6 /* Build configuration list for PBXNativeTarget "TNColorScrollViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				863A377B19B077A000D2D2C6 /* Debug */,
+				863A377C19B077A000D2D2C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		863A377D19B077A000D2D2C6 /* Build configuration list for PBXNativeTarget "TNColorScrollViewDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				863A377E19B077A000D2D2C6 /* Debug */,
+				863A377F19B077A000D2D2C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 863A374619B077A000D2D2C6 /* Project object */;
+}
